@@ -38,8 +38,8 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   },
   "description": "* Clone repository.   * Run `npm install`.   * Run `npm run webpack` to bundle the app with a watcher.   * Run `npm run server` to launch the development web server.   * Run `npm test` to run tests.",
   "repository": {

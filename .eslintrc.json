@@ -6,11 +6,12 @@
     "node": true
   },
   "extends": "airbnb",
+  "parser": "babel-eslint",
+  //!   "parser": "@typescript-eslint/parser", replaced
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
-  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
@@ -21,6 +22,7 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "semi": 2
+    "semi": 2,
+    "annoying-rule-we-want-disabled": 0
   }
 }

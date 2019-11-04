@@ -20,9 +20,7 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx", ".less", ".css", ".sass"]
   },
-  plugins: [
-    // new BundleAnalyzer()
-  ],
+  plugins: [new BundleAnalyzer()],
   devServer: {
     publicPath: path.resolve(__dirname, "/bundle/"),
     historyApiFallback: true,
